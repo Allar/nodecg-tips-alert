@@ -1,0 +1,36 @@
+{
+  "name": "nodecg-tips-alert",
+  "version": "0.0.0",
+  "description": "NodeCG Alert for when tips are received",
+  "homepage": "http://allarsblog.com",
+  "author": {
+    "name": "Michael Allar",
+    "email": "allar@michaelallar.com",
+    "url": "http://allarsblog.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "nodecg",
+    "alert",
+    "steamtip",
+    "tip",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 800,
+        "height": 400
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "MIT"
+}
